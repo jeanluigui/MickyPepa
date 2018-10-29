@@ -10,7 +10,7 @@ namespace MickyPepa_Market.Controllers
 {
     public class OrdersController : Controller
     {
-        MickyPepa_MarketContext db = new MickyPepa_MarketContext(); 
+        MickyPepa_MarketContext db = new MickyPepa_MarketContext();
         // GET: Orders
         public ActionResult NewOrder()
         {
@@ -23,6 +23,21 @@ namespace MickyPepa_Market.Controllers
             ViewBag.CustomerID = new SelectList(list, "CustomerID", "FullName");
 
             return View(orderView);
+        }
+
+        [HttpPost]
+        public ActionResult NewOrder(OrderView orderView)
+        {
+
+            var list = db.Customers.ToList();
+            list = list.OrderBy(c => c.FullName).ToList();
+            ViewBag.CustomerID = new SelectList(list, "CustomerID", "FullName");
+            return View(orderView);
+        }
+
+        public ActionResult AddProduct(ProductOrder productOrder)
+        {
+            return View(productOrder);
         }
 
         protected override void Dispose(bool disposing)
