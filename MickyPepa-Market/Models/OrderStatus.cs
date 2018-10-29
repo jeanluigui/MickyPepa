@@ -7,7 +7,7 @@ namespace MickyPepa_Market.Models
 {
     public enum OrderStatus
     {
-        Create,
+        Create = 1,
         Inprogress,
         Shipped,
         Delivered

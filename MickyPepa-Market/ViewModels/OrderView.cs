@@ -9,6 +9,7 @@ namespace MickyPepa_Market.ViewModels
     public class OrderView
     {
         public Customer Customer { get; set; }
-        public List<ProductOrder> Product { get; set; }
+        public List<ProductOrder> Products { get; set; }
+        public ProductOrder Product { get; set; }
     }
 }

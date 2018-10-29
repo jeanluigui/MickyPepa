@@ -51,7 +51,7 @@ namespace MickyPepa_Market.Controllers
         // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "CustomerID,ContactFirstName,ContactLastName,Phone,Address,Email,Document,DocumentTypeID")] Customer customer)
+        public ActionResult Create([Bind(Include = "CustomerID,FirstName,LastName,Phone,Address,Email,Document,DocumentTypeID")] Customer customer)
         {
             if (ModelState.IsValid)
             {
