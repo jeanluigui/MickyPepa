@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MickyPepa-Market", "MickyPepa-Market\MickyPepa-Market.csproj", "{7FED0878-AC51-4624-A77E-784124593C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MickyPepa-Market.Tests", "MickyPepa-Market.Tests\MickyPepa-Market.Tests.csproj", "{14CEC0D9-DE90-45AE-B0C6-ED80E0A32A0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FED0878-AC51-4624-A77E-784124593C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FED0878-AC51-4624-A77E-784124593C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FED0878-AC51-4624-A77E-784124593C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FED0878-AC51-4624-A77E-784124593C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CEC0D9-DE90-45AE-B0C6-ED80E0A32A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CEC0D9-DE90-45AE-B0C6-ED80E0A32A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CEC0D9-DE90-45AE-B0C6-ED80E0A32A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CEC0D9-DE90-45AE-B0C6-ED80E0A32A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98D12E39-2757-4B59-860E-8EC767062B90}
+	EndGlobalSection
+EndGlobal
