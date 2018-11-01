@@ -108,6 +108,7 @@ D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\System.Web.Http.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\EntityFramework.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\System.Web.Http.WebHost.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\System.Net.Http.Formatting.dll
@@ -131,6 +132,7 @@ D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\System.Web.Http.xml
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\EntityFramework.xml
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.xml
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\System.Web.Http.WebHost.xml
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\System.Net.Http.Formatting.xml
@@ -148,6 +150,7 @@ D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\es\Microsoft.Owin.Sec
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\es\System.Web.Http.resources.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\es\EntityFramework.resources.dll
+D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\es\Microsoft.Owin.Security.Facebook.resources.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\es\System.Web.Http.WebHost.resources.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll

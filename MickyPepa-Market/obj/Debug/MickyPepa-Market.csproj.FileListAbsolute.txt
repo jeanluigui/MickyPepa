@@ -151,6 +151,12 @@ D:\Practice Mvc\Practice Mvc\MickyPepa-Market\MickyPepa-Market\bin\roslyn\Micros
 D:\Practice Mvc\Practice Mvc\MickyPepa-Market\MickyPepa-Market\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 D:\Practice Mvc\Practice Mvc\MickyPepa-Market\MickyPepa-Market\bin\roslyn\System.IO.Compression.dll
 D:\Practice Mvc\Practice Mvc\MickyPepa-Market\MickyPepa-Market\bin\roslyn\VBCSCompiler.exe
+D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\System.IO.Compression.dll
+D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\VBCSCompiler.exe
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\ApplicationInsights.config
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\MickyPepa-Market.dll.config
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\MickyPepa-Market.dll
@@ -162,13 +168,9 @@ D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\csi.exe
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\csi.exe.config
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\csi.rsp
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.CodeAnalysis.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.VisualBasic.Core.targets
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\Microsoft.Win32.Primitives.dll
@@ -178,7 +180,6 @@ D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\System.Console.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\System.Diagnostics.Process.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\System.IO.Compression.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\System.IO.FileSystem.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\System.IO.FileSystem.Primitives.dll
@@ -201,7 +202,6 @@ D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\System.Xml.XPath.XDocument
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\vbc.exe
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\vbc.exe.config
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\vbc.rsp
-D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\VBCSCompiler.exe
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\roslyn\VBCSCompiler.exe.config
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\Antlr3.Runtime.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\bin\EntityFramework.dll
@@ -298,4 +298,3 @@ D:\Practice Mvc\MickyPepa\MickyPepa-Market\obj\Debug\MickyPepa-Market.csproj.Cor
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\obj\Debug\MickyPepa-Market.csproj.CopyComplete
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\obj\Debug\MickyPepa-Market.dll
 D:\Practice Mvc\MickyPepa\MickyPepa-Market\obj\Debug\MickyPepa-Market.pdb
-D:\Practice Mvc\MickyPepa\MickyPepa-Market\obj\Debug\MickyPepa-Market.csprojResolveAssemblyReference.cache

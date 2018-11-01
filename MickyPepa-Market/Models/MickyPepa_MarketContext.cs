@@ -39,5 +39,6 @@ namespace MickyPepa_Market.Models
 
         public System.Data.Entity.DbSet<MickyPepa_Market.Models.OrderDetail> OrderDetails { get; set; }
 
+        public System.Data.Entity.DbSet<MickyPepa_Market.Models.Category> Categories { get; set; }
     }
 }
