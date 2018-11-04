@@ -54,9 +54,9 @@ namespace MickyPepa_Market
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "184661815777253",
+               appSecret: "4fc88dd2e9e3b3b17584d5769493b0bd");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

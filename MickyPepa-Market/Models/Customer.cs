@@ -38,16 +38,18 @@ namespace MickyPepa_Market.Models
         [Required(ErrorMessage = "You must enter the field {0}")]
         [Display(Name = "Document")]
         public String Document { get; set; }
-        
+
+        private String _fullName;
         public String FullName
         {
             get
             {
                 return String.Format("{0} {1}", FirstName, LastName);
             }
-            //set {
-            //    FullName = value;
-            //}
+            set
+            {
+                _fullName = value;
+            }
         }
 
         public Int32 DocumentTypeID { get; set; }

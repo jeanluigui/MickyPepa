@@ -10,115 +10,107 @@ using MickyPepa_Market.Models;
 
 namespace MickyPepa_Market.Controllers
 {
-    public class CustomersController : Controller
+    public class CategoriesController : Controller
     {
         private MickyPepa_MarketContext db = new MickyPepa_MarketContext();
 
-        // GET: Customers
+        // GET: Categories
         public ActionResult Index()
         {
-            var customers = db.Customers.Include(c => c.DocumentType);
-            return View(customers.ToList());
+            return View(db.Categories.ToList());
         }
 
-        // GET: Customers/Details/5
+        // GET: Categories/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Customer customer = db.Customers.Find(id);
-            if (customer == null)
+            Category category = db.Categories.Find(id);
+            if (category == null)
             {
                 return HttpNotFound();
             }
-            return View(customer);
+            return View(category);
         }
 
-        // GET: Customers/Create
+        // GET: Categories/Create
         public ActionResult Create()
         {
-            var list = db.DocumentTypes.ToList();
-            list.Add(new DocumentType() { DocumentTypeID = 0, Description = "[Seleccione un tipo de Documento..]" });
-            list = list.OrderBy(c => c.Description).ToList();
-            ViewBag.DocumentTypeID = new SelectList(list, "DocumentTypeID", "Description");
             return View();
         }
 
-        // POST: Customers/Create
+        // POST: Categories/Create
         // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que desea enlazarse. Para obtener 
         // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "CustomerID,FirstName,LastName,Phone,Address,Email,Document,DocumentTypeID")] Customer customer)
+        public ActionResult Create([Bind(Include = "CategoryID,Description")] Category category)
         {
             if (ModelState.IsValid)
             {
-                db.Customers.Add(customer);
+                db.Categories.Add(category);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.DocumentTypeID = new SelectList(db.DocumentTypes, "DocumentTypeID", "Description", customer.DocumentTypeID);
-            return View(customer);
+            return View(category);
         }
 
-        // GET: Customers/Edit/5
+        // GET: Categories/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Customer customer = db.Customers.Find(id);
-            if (customer == null)
+            Category category = db.Categories.Find(id);
+            if (category == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.DocumentTypeID = new SelectList(db.DocumentTypes, "DocumentTypeID", "Description", customer.DocumentTypeID);
-            return View(customer);
+            return View(category);
         }
 
-        // POST: Customers/Edit/5
+        // POST: Categories/Edit/5
         // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que desea enlazarse. Para obtener 
         // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "CustomerID,ContactFirstName,ContactLastName,Phone,Address,Email,Document,DocumentTypeID")] Customer customer)
+        public ActionResult Edit([Bind(Include = "CategoryID,Description")] Category category)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(customer).State = EntityState.Modified;
+                db.Entry(category).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.DocumentTypeID = new SelectList(db.DocumentTypes, "DocumentTypeID", "Description", customer.DocumentTypeID);
-            return View(customer);
+            return View(category);
         }
 
-        // GET: Customers/Delete/5
+        // GET: Categories/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Customer customer = db.Customers.Find(id);
-            if (customer == null)
+            Category category = db.Categories.Find(id);
+            if (category == null)
             {
                 return HttpNotFound();
             }
-            return View(customer);
+            return View(category);
         }
 
-        // POST: Customers/Delete/5
+        // POST: Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Customer customer = db.Customers.Find(id);
-            db.Customers.Remove(customer);
+            Category category = db.Categories.Find(id);
+            db.Categories.Remove(category);
             db.SaveChanges();
             return RedirectToAction("Index");
         }
