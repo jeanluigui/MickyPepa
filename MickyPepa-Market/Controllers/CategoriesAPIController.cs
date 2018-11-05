@@ -27,10 +27,10 @@ namespace MickyPepa_Market.Controllers
         public IHttpActionResult GetCategory(int id)
         {
             Category category = db.Categories.Find(id);
-            if (category == null)
-            {
-                return NotFound();
-            }
+            //if (category == null)
+            //{
+            //    return NotFound();
+            //}
 
             return Ok(category);
         }
